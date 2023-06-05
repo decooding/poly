@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    font-family: sans-serif;
+    background-color: #013976;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #005995;
+    display: grid;
+    grid-template-columns: 1.5fr 8fr 2fr;
+    grid-gap: 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    color: #E9AC00;
+}
+
+.logo {
+    justify-self: center;
+    width: 70px;
+    height: 70px;
+}
+
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.select {
+    color: #ffd04d;
+    border-bottom: 3px solid #E9AC00;
+    padding-bottom: 22px;
+}
+
+#city {
+    font-size: 18px;
+    background: none;
+    border: none;
+    margin-left: 30px;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.city_open {
+    background-color: #005995;
+    color: aliceblue;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #E9AC00;
+    padding-bottom: 22px;
+    color: #ffd04d;
+}
+
+.contact,
+.contact a {
+    color: white;
+    display: block;
+    font-size: 11px;
+}
+
+.contact h6 {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+
+/**/
+.background {
+    width: 100%;
+    height: 900px;
+    background: url("../img/contact_bg.jpg") no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    position: absolute;
+    margin: 200px 0 0 120px;
+    color: #fff;
+    font-size: 48px;
+    width: 560px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section {
+    margin: 0 auto;
+    background-color: #004a8b;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 36, 76, .1);
+    margin-bottom: 50px;
+    padding: 32px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+aside {
+    border-left: 5px solid yellow;
+    color: #fff;
+}
+
+aside h2 {
+    margin: 0 0 20px 30px;
+    font-size: 21px;
+
+}
+
+aside p {
+    margin: 0 0 20px 30px;
+    font-size: 16px;
+}
+
+section img {
+    margin-top: 60px;
+    width: 635px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+/**/
+
+footer {
+    border-top: 2px solid #2196f3;
+    display: flex;
+    padding: 70px 0;
+    color: white;
+
+}
+
+.foo_container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 286px 206px 206px 286px;
+    grid-gap: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+#tell {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
